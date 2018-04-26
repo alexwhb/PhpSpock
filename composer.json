@@ -2,7 +2,10 @@
   "name": "alexwhb/php-spock",
   "type": "library",
   "description": "A PHP implementation of the wonderful Spock testing framework originally written for Groovy",
-  "keywords": ["php", "testing"],
+  "keywords": [
+    "php",
+    "testing"
+  ],
   "license": "LGPL-3",
   "authors": [
     {
@@ -15,9 +18,9 @@
     }
   ],
   "autoload": {
-    "psr-4": {
-      "PhpSpock\\": "src/PhpSpock/"
-    }
+    "classmap": [
+      "src/"
+    ]
   },
   "require": {
     "mockery/mockery": "^1.0",
