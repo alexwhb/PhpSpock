@@ -1,6 +1,8 @@
 {
   "name": "alexwhb/php-spock",
   "type": "library",
+  "description": "A PHP implementation of the wonderful Spock testing framework originally written for Groovy",
+  "keywords": ["php", "testing"],
   "license": "LGPL-3",
   "authors": [
     {
