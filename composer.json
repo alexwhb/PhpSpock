@@ -1,0 +1,19 @@
+{
+  "name": "alexwhb/php-spock",
+  "type": "library",
+  "license": "LGPL-3",
+  "authors": [
+    {
+      "name": "Alex Rudakov",
+      "role": "Developer"
+    },
+    {
+      "name": "Alexander Black",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "mockery/mockery": "^1.0",
+    "symfony/event-dispatcher": "^3.4"
+  }
+}
